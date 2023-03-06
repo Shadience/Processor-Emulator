@@ -130,9 +130,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ANDGate.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="NOTGate.cpp" />
+    <ClCompile Include="ObjectGate.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ANDGate.h" />
+    <ClInclude Include="NOTGate.h" />
+    <ClInclude Include="ObjectGate.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
