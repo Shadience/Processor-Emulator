@@ -13,7 +13,7 @@ public:
 	void setOut(bool val, int i);
 	bool getOut(int i);
 
-	virtual bool doLogic(std::vector<bool> pins, std::vector<bool> outs);
+	virtual bool doLogic(std::vector<bool> pins, std::vector<bool> outs) = 0;
 private:
 	std::vector<bool> pins;
 	std::vector<bool> outs;
